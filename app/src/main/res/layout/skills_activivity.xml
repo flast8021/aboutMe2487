@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView2"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:layout_editor_absoluteX="2dp"
+    tools:layout_editor_absoluteY="-1dp"
+    android:fillViewport="true"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_background"
+        tools:context=".education_activity">
+
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="272dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="32dp"
+            android:text="Assembling Computers"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="22dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="314dp"
+            android:layout_height="246dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13"
+            app:srcCompat="@drawable/computer_assembly" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="328dp"
+            android:layout_height="121dp"
+            android:layout_marginTop="32dp"
+            android:text="My one of skills is computer assembly, which I've be experienced since last 4 years, I was working in a firm where my job was to assemble computers and laptops, I really enjoyed that job, also that job led me to more intrest in field of computing."
+            android:textAlignment="center"
+            android:background="#66000000"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="222dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="24dp"
+            android:text="Web development"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="330dp"
+            android:layout_height="161dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView15"
+            app:srcCompat="@drawable/web_development" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="327dp"
+            android:layout_height="111dp"
+            android:layout_marginTop="36dp"
+            android:background="#66000000"
+            android:text="As an student of Computing, I've learned many new thing related to technology, one of them is web development. I can develop an web based application using HTML, CSS, Java Script etc. Which for me is very intresting work and i enjoy developing web based application/websites."
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.512"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="222dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="44dp"
+            android:text="Databse Designing"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="140dp"
+            android:layout_height="165dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.895"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView17"
+            app:srcCompat="@drawable/database_image" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="150dp"
+            android:layout_height="129dp"
+            android:layout_marginTop="40dp"
+            android:background="#66000000"
+            android:text="I'm skilled with managing and designing database, I use mysql as forr such purposes, and still practising."
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.254"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+        <TextView
+            android:id="@+id/copyright"
+            android:layout_width="407dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="112dp"
+            android:background="#53789F"
+            android:text="&#169; Copyright Usman Zia 2022\nBuilt With Android Studio"
+            android:textAlignment="center"
+            android:textColor="#adb5bd"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <Button
+            android:id="@+id/buttonEducationII"
+            android:layout_width="180dp"
+            android:layout_height="48dp"
+
+            android:backgroundTint="#53789F"
+            android:text="Education"
+            app:layout_constraintBottom_toTopOf="@+id/copyright"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.067"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18"
+            app:layout_constraintVertical_bias="0.504" />
+
+        <Button
+            android:id="@+id/buttonHobbiesII"
+            android:layout_width="180dp"
+            android:layout_height="48dp"
+            android:backgroundTint="#53789F"
+            android:text="Hobbies  "
+            app:layout_constraintBottom_toTopOf="@+id/copyright"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.938"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView15"
+            app:layout_constraintVertical_bias="0.40" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
